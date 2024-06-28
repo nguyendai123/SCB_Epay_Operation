@@ -1,0 +1,13 @@
+### Common-setting-start ####
+server:
+  port: 8084
+  servlet:
+    context-path: /PreprodCSB/ewallet/
+
+cache:
+  redis:
+    host: redis
+
+grpc:
+  server:
+    port: -1 # disable grpc-server
